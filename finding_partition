@@ -1,0 +1,9 @@
+def transitionPoint(arr, n):
+    #Code here
+    r=0
+    res=-1
+    for i in range(len(arr)):
+        if arr[i]!=r:
+            res=i
+            break
+    return res        
